@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css.css" />
+    <script src="js.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>CoAlert</title>
+  </head>
+
+  <body onload="typewriter()">
+    <!--nav-bar-->
+    <nav>
+      <ul>
+        <li>
+          <a href="https://zombie-shooter-9a5d8.web.app/">
+            <div class="box-1">
+              <div class="btn btn-one">
+                <span>Kill the Virus!</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="box-1">
+              <div class="btn btn-one">
+                <span>COVID Tracker</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="heading">
+          <a href="#1"
+            >CO<span class="material-icons md-52">report_problem</span>LERT
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Doctor and typewriter-->
+    <div>
+      <div class="doc-image">
+        <img src="ClipartKey_2525599.png" alt="" width="500px" height="325px" />
+        <p id="type"></p>
+      </div>
+    </div>
+
+    <!-- Corona virus animation container -->
+    <div>
+      <div class="animatediv v1">
+        <img
+          src="https://atheistiran.com/wp-content/uploads/2020/03/corona-virus.png"
+          width="280"
+          height="280"
+        />
+      </div>
+      <div class="animatediv v2">
+        <img
+          src="https://atheistiran.com/wp-content/uploads/2020/03/corona-virus.png"
+          width="170px"
+          height="170px"
+        />
+      </div>
+      <div class="animatediv v3">
+        <img src="i.png" width="130px" height="130px" />
+      </div>
+    </div>
+
+
+    <!--News Cards-->
+    <div class="news">NEWS FEED</div>
+    <a href="https://www.dailypioneer.com/2021/india/india-sees-declining-covid-trend.html" style="text-decoration: none;">
+    <div class="cards-list" style="text-decoration: none;">
+      <div class="card 1">
+        <div class="card_image">
+          <img src="https://us.123rf.com/450wm/sanek13744/sanek137442102/sanek13744210200762/163786660-market-trend-icon-in-comic-style-decline-arrow-with-magnifier-cartoon-vector-illustration-on-white-i.jpg?ver=6" />
+        </div>
+        <div class="card_title title-white">
+          <p>Decreasing Trend of Spread of COVID in India</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="https://www.hackensackmeridianhealth.org/HealthU/2021/06/07/our-docs-share-5-personal-tips-for-a-great-workout/" style="text-decoration: none;">
+      <div class="card 2">
+        <div class="card_image">
+          <img
+            src="https://us.123rf.com/450wm/rnl/rnl1209/rnl120900013/15081845-road-sign-indicating-helpful-tips-against-a-blue-sky-background.jpg?ver=6"
+          />
+        </div>
+        <div class="card_title title-white">
+          <p>5-Minute Tips</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="https://www.bbc.com/news/world-asia-india-57400620" style="text-decoration: none;">
+        <div class="card 2">
+          <div class="card_image">
+            <img
+              src="data:image/jpeg;base64,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"
+            />
+          </div>
+          <div class="card_title title-white">
+            <p>Vaccination Drive</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.newindianexpress.com/cities/bhubaneswar/2021/may/22/covid-cases-deaths-surge-in-odisha-again-2305993.html" style="text-decoration: none;">
+      <div class="card 2">
+        <div class="card_image">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKDOca56ILl2SD_ipaUBUzLQit0F1lh62bOg&usqp=CAU"
+          />
+        </div>
+        <div class="card_title title-white">
+          <p>Death Toll Increase in Odisha</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="https://economictimes.indiatimes.com/topic/lockdown-extended" style="text-decoration: none;">
+      <div class="card 2">
+        <div class="card_image">
+          <img
+            src="https://res.cloudinary.com/healthmanagement-org/image/upload/f_auto,fl_lossy/v1594915229/cw/00116988_cw_image.jpg"
+          />
+        </div>
+        <div class="card_title title-white">
+          <p>Lockdown Period Extension</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="https://tchhsa.org/eng/index.cfm/agency-news/staying-positive-during-the-covid-19-pandemic/" style="text-decoration: none;">
+      <div class="card 2">
+        <div class="card_image">
+          <img src="https://image.freepik.com/free-photo/little-girl-wearing-face-mask-showing-thumbs-up_29488-1041.jpg">
+        </div>
+        <div class="card_title title-white">
+          <p>Staying Positive!</p>
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="credit">&#169 DEVELOPED BY MAYANK PATEL</div> <br>
+      <div class="extra">For further info visit <a href="https://www.who.int/">WHO</a> official website</div>
+
+    </footer>
+
+  </body>
+</html>
